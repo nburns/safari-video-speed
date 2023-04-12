@@ -3,11 +3,23 @@
 }
 
 body {
-    width: 100px;
+    width: 200px;
     padding: 10px;
 
     font-family: system-ui;
     text-align: center;
+}
+
+label {
+    vertical-align: middle;
+}
+
+input {
+    vertical-align: middle;
+}
+
+#speed {
+    display: block;
 }
 
 @media (prefers-color-scheme: dark) {

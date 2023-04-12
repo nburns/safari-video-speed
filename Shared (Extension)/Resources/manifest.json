@@ -20,7 +20,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://*/*" ]
     }],
 
     "action": {
@@ -34,6 +34,4 @@
             "72": "images/toolbar-icon-72.png"
         }
     },
-
-    "permissions": [ ]
 }
