@@ -8,12 +8,15 @@
 <body>
     <div class="controls">
         <div class="control">
+            <span class="controlName">Skip forward or backward</span>
+            <span class="controlExplain">J,K,L: Back, Pause, Forward</span>
             <input data-control="skip" type="button" value="-30"/>
             <input data-control="skip" type="button" value="-10"/>
             <input data-control="skip" type="button" value="+10"/>
             <input data-control="skip" type="button" value="+30"/>
         </div>
         <div class="control">
+            <span class="controlName">Change Plaback Rate</span>
             <label>0x<input data-control="speed" type="range" min="0" max="2" step="0.1" list="markers" value="1">2x</label>
             <span id="speed">1x</span>
             <datalist id="markers">

@@ -27,6 +27,21 @@ input {
     flex-direction: column;
 }
 
+.control {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.controlName {
+    display: block;
+}
+
+.controlExplain {
+    font-size: small;
+}
+
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
 }
