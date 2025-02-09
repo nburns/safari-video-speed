@@ -6,14 +6,24 @@
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <label>0x<input type="range" min="0" max="2" step="0.1" list="markers" value="1">2x</label>
-    <span id="speed">1x</span>
-    <datalist id="markers">
-        <option value="0"></option>
-        <option value="0.5"></option>
-        <option value="1"></option>
-        <option value="1.5"></option>
-        <option value="2"></option>
-    </datalist>
+    <div class="controls">
+        <div class="control">
+            <input data-control="skip" type="button" value="-30"/>
+            <input data-control="skip" type="button" value="-10"/>
+            <input data-control="skip" type="button" value="+10"/>
+            <input data-control="skip" type="button" value="+30"/>
+        </div>
+        <div class="control">
+            <label>0x<input data-control="speed" type="range" min="0" max="2" step="0.1" list="markers" value="1">2x</label>
+            <span id="speed">1x</span>
+            <datalist id="markers">
+                <option value="0"></option>
+                <option value="0.5"></option>
+                <option value="1"></option>
+                <option value="1.5"></option>
+                <option value="2"></option>
+            </datalist>
+        </div>
+    </div>
 </body>
 </html>

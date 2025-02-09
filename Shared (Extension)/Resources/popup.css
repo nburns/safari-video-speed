@@ -22,6 +22,11 @@ input {
     display: block;
 }
 
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
 }
